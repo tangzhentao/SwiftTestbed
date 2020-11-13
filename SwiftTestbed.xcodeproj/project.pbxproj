@@ -16,6 +16,8 @@
 		02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC2255E117000F1A1AE /* MetatypeVC.swift */; };
 		02674CC6255E144100F1A1AE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC5255E144100F1A1AE /* BaseViewController.swift */; };
 		02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC9255E18B000F1A1AE /* Smiley.swift */; };
+		02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */; };
+		02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CD4255E779700F1A1AE /* LazyObject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		02674CC2255E117000F1A1AE /* MetatypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetatypeVC.swift; sourceTree = "<group>"; };
 		02674CC5255E144100F1A1AE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		02674CC9255E18B000F1A1AE /* Smiley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smiley.swift; sourceTree = "<group>"; };
+		02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingVC.swift; sourceTree = "<group>"; };
+		02674CD4255E779700F1A1AE /* LazyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyObject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +67,10 @@
 			isa = PBXGroup;
 			children = (
 				025E46D9255D00EE00DDAAA9 /* AppDelegate.swift */,
-				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
+				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				02674CCD255E765600F1A1AE /* LazyLoading */,
 				02674CC8255E187D00F1A1AE /* Metatype */,
 				02674CC5255E144100F1A1AE /* BaseViewController.swift */,
 				025E46E2255D00F000DDAAA9 /* Assets.xcassets */,
@@ -82,6 +87,15 @@
 				02674CC9255E18B000F1A1AE /* Smiley.swift */,
 			);
 			path = Metatype;
+			sourceTree = "<group>";
+		};
+		02674CCD255E765600F1A1AE /* LazyLoading */ = {
+			isa = PBXGroup;
+			children = (
+				02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */,
+				02674CD4255E779700F1A1AE /* LazyObject.swift */,
+			);
+			path = LazyLoading;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +169,8 @@
 			files = (
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
+				02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */,
+				02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */,
 				025E46FA255D0AA300DDAAA9 /* TestItem.swift in Sources */,
 				025E46F3255D01C500DDAAA9 /* NavigationController.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
