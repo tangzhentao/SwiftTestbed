@@ -18,6 +18,9 @@
 		02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC9255E18B000F1A1AE /* Smiley.swift */; };
 		02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */; };
 		02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CD4255E779700F1A1AE /* LazyObject.swift */; };
+		02C7B9E0256204DB008416F3 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9DF256204DB008416F3 /* Team.swift */; };
+		02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */; };
+		02C7B9E725624D3F008416F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E625624D3F008416F3 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		02674CC9255E18B000F1A1AE /* Smiley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smiley.swift; sourceTree = "<group>"; };
 		02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingVC.swift; sourceTree = "<group>"; };
 		02674CD4255E779700F1A1AE /* LazyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyObject.swift; sourceTree = "<group>"; };
+		02C7B9DF256204DB008416F3 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDemoVC.swift; sourceTree = "<group>"; };
+		02C7B9E625624D3F008416F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +76,7 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				02C7B9DE2562049F008416F3 /* Codable */,
 				02674CCD255E765600F1A1AE /* LazyLoading */,
 				02674CC8255E187D00F1A1AE /* Metatype */,
 				02674CC5255E144100F1A1AE /* BaseViewController.swift */,
@@ -96,6 +103,16 @@
 				02674CD4255E779700F1A1AE /* LazyObject.swift */,
 			);
 			path = LazyLoading;
+			sourceTree = "<group>";
+		};
+		02C7B9DE2562049F008416F3 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */,
+				02C7B9DF256204DB008416F3 /* Team.swift */,
+				02C7B9E625624D3F008416F3 /* User.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,13 +185,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
+				02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
+				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
 				02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */,
 				02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */,
 				025E46FA255D0AA300DDAAA9 /* TestItem.swift in Sources */,
 				025E46F3255D01C500DDAAA9 /* NavigationController.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
 				025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */,
+				02C7B9E0256204DB008416F3 /* Team.swift in Sources */,
 				02674CC6255E144100F1A1AE /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

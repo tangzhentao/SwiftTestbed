@@ -33,7 +33,8 @@ class TableViewController: UITableViewController {
     func setupData() {
         dataArray = [
             TestItem(title: "元类型", type: MetatypeVC.self),
-            TestItem(title: "懒加载", type: LazyLoadingVC.self)
+            TestItem(title: "懒加载", type: LazyLoadingVC.self),
+            TestItem(title: "编码、解码、归档", type: CodableDemoVC.self),
         ]
     }
 }
