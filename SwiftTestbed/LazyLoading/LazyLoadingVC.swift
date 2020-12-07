@@ -36,9 +36,16 @@ class LazyLoadingVC: BaseViewController {
         print(MemoryLayout.size(ofValue: lazyObject))
         print(MemoryLayout.alignment(ofValue: lazyObject))
         print(MemoryLayout.stride(ofValue: lazyObject))
-        
-        print("end")
-
+    
+        print("演示三种懒加载")
+        var demo = LazyDemo()
+        print("demo对象创建完成")
+        print("第一次获取a:", demo.a)
+        print("第一次获取b:", demo.b)
+        print("第一次获取c:", demo.c)
+        print("第二次获取a:", demo.a)
+        print("第二次获取b:", demo.b)
+        print("第二次获取c:", demo.c)
     }
     
 }
