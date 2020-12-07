@@ -46,6 +46,8 @@ class LazyLoadingVC: BaseViewController {
         print("第二次获取a:", demo.a)
         print("第二次获取b:", demo.b)
         print("第二次获取c:", demo.c)
+        
+        print("end")
     }
     
 }

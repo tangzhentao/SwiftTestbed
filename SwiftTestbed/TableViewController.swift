@@ -35,6 +35,9 @@ class TableViewController: UITableViewController {
             TestItem(title: "元类型", type: MetatypeVC.self),
             TestItem(title: "懒加载", type: LazyLoadingVC.self),
             TestItem(title: "搜索功能", type: ContainSearchBarVC.self),
+            TestItem(title: "编码、解码、归档", type: CodableDemoVC.self),
+            TestItem(title: "分页滑动", type: PageDemoVC.self),
+            TestItem(title: "CollectionView", type: CollectionViewVC.self),
         ]
     }
 }
