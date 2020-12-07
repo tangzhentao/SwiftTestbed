@@ -38,7 +38,6 @@ class LazyLoadingVC: BaseViewController {
         print(MemoryLayout.stride(ofValue: lazyObject))
         
         print("end")
-
     }
     
 }
