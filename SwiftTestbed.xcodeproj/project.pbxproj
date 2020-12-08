@@ -25,6 +25,9 @@
 		02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC9255E18B000F1A1AE /* Smiley.swift */; };
 		02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */; };
 		02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CD4255E779700F1A1AE /* LazyObject.swift */; };
+		24AF3872257CE17A00990D66 /* ContainSearchBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF3871257CE17A00990D66 /* ContainSearchBarVC.swift */; };
+		24AF3874257CE27000990D66 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF3873257CE27000990D66 /* BaseVC.swift */; };
+		24AF387A257D08D700990D66 /* SearchResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24AF3879257D08D700990D66 /* SearchResultVC.swift */; };
 		02C7B9E0256204DB008416F3 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9DF256204DB008416F3 /* Team.swift */; };
 		02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */; };
 		02C7B9E725624D3F008416F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E625624D3F008416F3 /* User.swift */; };
@@ -52,6 +55,10 @@
 		02674CC9255E18B000F1A1AE /* Smiley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smiley.swift; sourceTree = "<group>"; };
 		02674CCE255E767000F1A1AE /* LazyLoadingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyLoadingVC.swift; sourceTree = "<group>"; };
 		02674CD4255E779700F1A1AE /* LazyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyObject.swift; sourceTree = "<group>"; };
+		24AF3871257CE17A00990D66 /* ContainSearchBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainSearchBarVC.swift; sourceTree = "<group>"; };
+		24AF3873257CE27000990D66 /* BaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
+		24AF3875257CE2F100990D66 /* SwiftTestbed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTestbed-Bridging-Header.h"; sourceTree = "<group>"; };
+		24AF3879257D08D700990D66 /* SearchResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultVC.swift; sourceTree = "<group>"; };
 		02C7B9DF256204DB008416F3 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDemoVC.swift; sourceTree = "<group>"; };
 		02C7B9E625624D3F008416F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
@@ -109,10 +116,15 @@
 			children = (
 				025E46D9255D00EE00DDAAA9 /* AppDelegate.swift */,
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
+				24AF3873257CE27000990D66 /* BaseVC.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+<<<<<<< HEAD
 				02564268257F6831002E97FA /* generic */,
 				02620B4C257DBD4200117042 /* Search1 */,
+=======
+				24AF3870257CE0E800990D66 /* SearchBar */,
+>>>>>>> 260fb4f92f76c8f9db4768e4f2a130d0a9705bc0
 				02EEDD89256BA174002BE779 /* CollectionView */,
 				02C7B9DE2562049F008416F3 /* Codable */,
 				02674CCD255E765600F1A1AE /* LazyLoading */,
@@ -122,6 +134,7 @@
 				025E46E2255D00F000DDAAA9 /* Assets.xcassets */,
 				025E46E4255D00F000DDAAA9 /* LaunchScreen.storyboard */,
 				025E46E7255D00F000DDAAA9 /* Info.plist */,
+				24AF3875257CE2F100990D66 /* SwiftTestbed-Bridging-Header.h */,
 			);
 			path = SwiftTestbed;
 			sourceTree = "<group>";
@@ -153,6 +166,13 @@
 			path = LazyLoading;
 			sourceTree = "<group>";
 		};
+		24AF3870257CE0E800990D66 /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				24AF3871257CE17A00990D66 /* ContainSearchBarVC.swift */,
+				24AF3879257D08D700990D66 /* SearchResultVC.swift */,
+			);
+			path = SearchBar;
 		02C7B9DE2562049F008416F3 /* Codable */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +222,7 @@
 				TargetAttributes = {
 					025E46D5255D00EE00DDAAA9 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -243,12 +264,14 @@
 				02620B4E257DBD6F00117042 /* SearchBarVC.swift in Sources */,
 				0256B2802563BCC3003F87E5 /* PageDemoVC.swift in Sources */,
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
+				24AF3874257CE27000990D66 /* BaseVC.swift in Sources */,
 				02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */,
 				0256B2842563BD00003F87E5 /* PageVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
 				0256426D257F6885002E97FA /* SubTable.swift in Sources */,
 				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
 				02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */,
+				24AF3872257CE17A00990D66 /* ContainSearchBarVC.swift in Sources */,
 				02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */,
 				025E46FA255D0AA300DDAAA9 /* TestItem.swift in Sources */,
 				025E46F3255D01C500DDAAA9 /* NavigationController.swift in Sources */,
@@ -256,6 +279,7 @@
 				02620B52257DBD8500117042 /* SearchResultVC1.swift in Sources */,
 				0256426A257F6851002E97FA /* Table.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
+				24AF387A257D08D700990D66 /* SearchResultVC.swift in Sources */,
 				025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */,
 				02C7B9E0256204DB008416F3 /* Team.swift in Sources */,
 				02674CC6255E144100F1A1AE /* BaseViewController.swift in Sources */,
@@ -398,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,6 +431,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firefly.SwiftTestbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTestbed/SwiftTestbed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -416,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -424,6 +452,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firefly.SwiftTestbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTestbed/SwiftTestbed-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

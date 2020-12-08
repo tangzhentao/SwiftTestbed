@@ -28,3 +28,19 @@ enum Week {
     case friday
     case saturday
 }
+
+
+// 演示三种懒加载
+struct LazyDemo {
+    lazy var a = 1
+    lazy var b = {
+        ()->Int in
+        print("lazy loading b")
+        return 2 }() //
+    lazy var c = generateC()
+    
+    func generateC() -> String {
+        print("generate c")
+        return "hello"
+    }
+}
