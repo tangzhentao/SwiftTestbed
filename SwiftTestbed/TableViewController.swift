@@ -38,6 +38,8 @@ class TableViewController: UITableViewController {
             TestItem(title: "分页滑动", type: PageDemoVC.self),
             TestItem(title: "CollectionView", type: CollectionViewVC.self),
             TestItem(title: "泛型父类和具体子类", type: GenericsVC.self),
+            TestItem(title: "搜索", type: ContainSearchBarVC.self),
+            TestItem(title: "弹出框", type: PopoverVC.self),
         ]
     }
 }
