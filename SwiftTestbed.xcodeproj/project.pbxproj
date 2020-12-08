@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0256426A257F6851002E97FA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02564269257F6851002E97FA /* Table.swift */; };
+		0256426D257F6885002E97FA /* SubTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256426C257F6885002E97FA /* SubTable.swift */; };
+		02564270257F6984002E97FA /* GenericsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256426F257F6984002E97FA /* GenericsVC.swift */; };
 		0256B2802563BCC3003F87E5 /* PageDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256B27F2563BCC3003F87E5 /* PageDemoVC.swift */; };
 		0256B2842563BD00003F87E5 /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256B2832563BD00003F87E5 /* PageVC.swift */; };
 		025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E46D9255D00EE00DDAAA9 /* AppDelegate.swift */; };
@@ -15,6 +18,8 @@
 		025E46F3255D01C500DDAAA9 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E46F2255D01C500DDAAA9 /* NavigationController.swift */; };
 		025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E46F5255D021A00DDAAA9 /* TableViewController.swift */; };
 		025E46FA255D0AA300DDAAA9 /* TestItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025E46F9255D0AA300DDAAA9 /* TestItem.swift */; };
+		02620B4E257DBD6F00117042 /* SearchBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02620B4D257DBD6F00117042 /* SearchBarVC.swift */; };
+		02620B52257DBD8500117042 /* SearchResultVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02620B51257DBD8500117042 /* SearchResultVC1.swift */; };
 		02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC2255E117000F1A1AE /* MetatypeVC.swift */; };
 		02674CC6255E144100F1A1AE /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC5255E144100F1A1AE /* BaseViewController.swift */; };
 		02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02674CC9255E18B000F1A1AE /* Smiley.swift */; };
@@ -27,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02564269257F6851002E97FA /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
+		0256426C257F6885002E97FA /* SubTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubTable.swift; sourceTree = "<group>"; };
+		0256426F257F6984002E97FA /* GenericsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericsVC.swift; sourceTree = "<group>"; };
 		0256B27F2563BCC3003F87E5 /* PageDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDemoVC.swift; sourceTree = "<group>"; };
 		0256B2832563BD00003F87E5 /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
 		025E46D6255D00EE00DDAAA9 /* SwiftTestbed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTestbed.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -37,6 +45,8 @@
 		025E46F2255D01C500DDAAA9 /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		025E46F5255D021A00DDAAA9 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		025E46F9255D0AA300DDAAA9 /* TestItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestItem.swift; sourceTree = "<group>"; };
+		02620B4D257DBD6F00117042 /* SearchBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarVC.swift; sourceTree = "<group>"; };
+		02620B51257DBD8500117042 /* SearchResultVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultVC1.swift; sourceTree = "<group>"; };
 		02674CC2255E117000F1A1AE /* MetatypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetatypeVC.swift; sourceTree = "<group>"; };
 		02674CC5255E144100F1A1AE /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		02674CC9255E18B000F1A1AE /* Smiley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smiley.swift; sourceTree = "<group>"; };
@@ -59,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02564268257F6831002E97FA /* generic */ = {
+			isa = PBXGroup;
+			children = (
+				02564269257F6851002E97FA /* Table.swift */,
+				0256426C257F6885002E97FA /* SubTable.swift */,
+				0256426F257F6984002E97FA /* GenericsVC.swift */,
+			);
+			path = generic;
+			sourceTree = "<group>";
+		};
 		0256B27D25639EBE003F87E5 /* PageViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +111,8 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				02564268257F6831002E97FA /* generic */,
+				02620B4C257DBD4200117042 /* Search1 */,
 				02EEDD89256BA174002BE779 /* CollectionView */,
 				02C7B9DE2562049F008416F3 /* Codable */,
 				02674CCD255E765600F1A1AE /* LazyLoading */,
@@ -102,6 +124,15 @@
 				025E46E7255D00F000DDAAA9 /* Info.plist */,
 			);
 			path = SwiftTestbed;
+			sourceTree = "<group>";
+		};
+		02620B4C257DBD4200117042 /* Search1 */ = {
+			isa = PBXGroup;
+			children = (
+				02620B4D257DBD6F00117042 /* SearchBarVC.swift */,
+				02620B51257DBD8500117042 /* SearchResultVC1.swift */,
+			);
+			path = Search1;
 			sourceTree = "<group>";
 		};
 		02674CC8255E187D00F1A1AE /* Metatype */ = {
@@ -209,16 +240,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02620B4E257DBD6F00117042 /* SearchBarVC.swift in Sources */,
 				0256B2802563BCC3003F87E5 /* PageDemoVC.swift in Sources */,
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
 				02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */,
 				0256B2842563BD00003F87E5 /* PageVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
+				0256426D257F6885002E97FA /* SubTable.swift in Sources */,
 				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
 				02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */,
 				02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */,
 				025E46FA255D0AA300DDAAA9 /* TestItem.swift in Sources */,
 				025E46F3255D01C500DDAAA9 /* NavigationController.swift in Sources */,
+				02564270257F6984002E97FA /* GenericsVC.swift in Sources */,
+				02620B52257DBD8500117042 /* SearchResultVC1.swift in Sources */,
+				0256426A257F6851002E97FA /* Table.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
 				025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */,
 				02C7B9E0256204DB008416F3 /* Team.swift in Sources */,

@@ -37,6 +37,7 @@ class TableViewController: UITableViewController {
             TestItem(title: "编码、解码、归档", type: CodableDemoVC.self),
             TestItem(title: "分页滑动", type: PageDemoVC.self),
             TestItem(title: "CollectionView", type: CollectionViewVC.self),
+            TestItem(title: "泛型父类和具体子类", type: GenericsVC.self),
         ]
     }
 }
