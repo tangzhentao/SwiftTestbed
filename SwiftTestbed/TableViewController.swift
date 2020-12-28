@@ -40,6 +40,9 @@ class TableViewController: UITableViewController {
             TestItem(title: "泛型父类和具体子类", type: GenericsVC.self),
             TestItem(title: "搜索", type: ContainSearchBarVC.self),
             TestItem(title: "弹出框", type: PopoverVC.self),
+            TestItem(title: "图文混排", type: ImageTextVC.self),
+
+            
         ]
     }
 }

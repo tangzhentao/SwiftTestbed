@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230EB032599F5DC008353D7 /* ImageTextVC.swift */; };
 		02528096257F8DFA0073D5E1 /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02528095257F8DFA0073D5E1 /* PopoverVC.swift */; };
 		0252809A257F95F50073D5E1 /* IteamsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02528099257F95F50073D5E1 /* IteamsVC.swift */; };
 		0256426A257F6851002E97FA /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02564269257F6851002E97FA /* Table.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0230EB032599F5DC008353D7 /* ImageTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextVC.swift; sourceTree = "<group>"; };
 		02528095257F8DFA0073D5E1 /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
 		02528099257F95F50073D5E1 /* IteamsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteamsVC.swift; sourceTree = "<group>"; };
 		02564269257F6851002E97FA /* Table.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Table.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0230EB022599F5C2008353D7 /* ImageText */ = {
+			isa = PBXGroup;
+			children = (
+				0230EB032599F5DC008353D7 /* ImageTextVC.swift */,
+			);
+			path = ImageText;
+			sourceTree = "<group>";
+		};
 		02528094257F8DEC0073D5E1 /* Popover */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +139,7 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				0230EB022599F5C2008353D7 /* ImageText */,
 				02528094257F8DEC0073D5E1 /* Popover */,
 				02987F67257F71CD00537D47 /* SearchBar */,
 				02564268257F6831002E97FA /* generic */,
@@ -277,6 +288,7 @@
 				02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */,
 				0252809A257F95F50073D5E1 /* IteamsVC.swift in Sources */,
 				0256B2842563BD00003F87E5 /* PageVC.swift in Sources */,
+				0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
 				0256426D257F6885002E97FA /* SubTable.swift in Sources */,
 				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
