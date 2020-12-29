@@ -10,7 +10,7 @@ import UIKit
 
 class ImageTextVC: BaseViewController {
     
-    var textVieW = UITextView(frame: CGRect(x: 30, y: 40, width: 300, height: 400))
+    var textVieW = UITextView(frame: CGRect(x: 30, y: 40, width: 340, height: 600))
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,8 @@ class ImageTextVC: BaseViewController {
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "test", style: .plain, target: self, action: #selector(parse))
     }
     func configUI() {
-        textVieW.backgroundColor = UIColor.lightGray
+        view.backgroundColor = UIColor.groupTableViewBackground
+        textVieW.backgroundColor = UIColor.white
         
 //        textVieW.text = "asdfasdf asd fasdf j;ljas asdfja;ls j;lk asdf asfasdf jasdfasd;jfkas;djkf asd fsdffsadf asdf  as dfj;lasdj as;ldjf;lkjl;j;k;kddd a "
         
