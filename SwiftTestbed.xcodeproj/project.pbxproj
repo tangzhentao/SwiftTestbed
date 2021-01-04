@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		022EFCC7259D63ED0074237E /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EFCC6259D63ED0074237E /* WebviewVC.swift */; };
 		0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230EB032599F5DC008353D7 /* ImageTextVC.swift */; };
 		02528096257F8DFA0073D5E1 /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02528095257F8DFA0073D5E1 /* PopoverVC.swift */; };
 		0252809A257F95F50073D5E1 /* IteamsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02528099257F95F50073D5E1 /* IteamsVC.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		022EFCC6259D63ED0074237E /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
 		0230EB032599F5DC008353D7 /* ImageTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextVC.swift; sourceTree = "<group>"; };
 		02528095257F8DFA0073D5E1 /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
 		02528099257F95F50073D5E1 /* IteamsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IteamsVC.swift; sourceTree = "<group>"; };
@@ -80,6 +82,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		022EFCC5259D63E30074237E /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				022EFCC6259D63ED0074237E /* WebviewVC.swift */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
 		0230EB022599F5C2008353D7 /* ImageText */ = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +149,7 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				022EFCC5259D63E30074237E /* webview */,
 				0230EB022599F5C2008353D7 /* ImageText */,
 				02528094257F8DEC0073D5E1 /* Popover */,
 				02987F67257F71CD00537D47 /* SearchBar */,
@@ -303,6 +314,7 @@
 				02987F6A257F71CD00537D47 /* SearchResultVC.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
 				025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */,
+				022EFCC7259D63ED0074237E /* WebviewVC.swift in Sources */,
 				02C7B9E0256204DB008416F3 /* Team.swift in Sources */,
 				02674CC6255E144100F1A1AE /* BaseViewController.swift in Sources */,
 				02EEDD8B256BA199002BE779 /* CollectionViewVC.swift in Sources */,
@@ -445,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4SRCXW84;
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -463,6 +476,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PM4SRCXW84;
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

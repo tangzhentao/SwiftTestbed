@@ -18,6 +18,28 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>public.data</string>
+				<string>public.image</string>
+				<string>public.text</string>
+				<string>public.png</string>
+				<string>public.folder</string>
+				<string>public.directory</string>
+			</array>
+			<key>CFBundleTypeIconFiles</key>
+			<array>
+				<string>file</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>public.image</string>
+			<key>LSHandlerRank</key>
+			<string>Owner</string>
+		</dict>
+	</array>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>

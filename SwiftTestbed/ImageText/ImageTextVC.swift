@@ -96,8 +96,6 @@ class ImageTextVC: BaseViewController {
 
     }
 
-
-
          //插入图片
     func insetImage() {
         

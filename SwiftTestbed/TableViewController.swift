@@ -41,7 +41,7 @@ class TableViewController: UITableViewController {
             TestItem(title: "搜索", type: ContainSearchBarVC.self),
             TestItem(title: "弹出框", type: PopoverVC.self),
             TestItem(title: "图文混排", type: ImageTextVC.self),
-
+            TestItem(title: "WebviewVC", type: WebviewVC.self),
             
         ]
     }
