@@ -42,7 +42,7 @@ class TableViewController: UITableViewController {
             TestItem(title: "弹出框", type: PopoverVC.self),
             TestItem(title: "图文混排", type: ImageTextVC.self),
             TestItem(title: "WebviewVC", type: WebviewVC.self),
-            
+            TestItem(title: "过渡动画", type: PresetationDemoVC.self),
         ]
     }
 }

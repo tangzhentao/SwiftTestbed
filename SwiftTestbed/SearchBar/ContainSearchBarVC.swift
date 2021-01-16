@@ -30,6 +30,11 @@ class ContainSearchBarVC: BaseViewController {
         addSearchBar()
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        svc.dismiss(animated: true, completion: nil)
+    }
+    
     func addBarButtonItems() {
         let item = UIBarButtonItem(title: "发布", style: .plain, target: self, action: #selector(publish(sender:)))
         navigationItem.rightBarButtonItem = item
@@ -47,6 +52,10 @@ class ContainSearchBarVC: BaseViewController {
     @objc func publish(sender: UIBarButtonItem) {
         print("\(type(of: self)).\(#function)")
 
+    }
+    
+    deinit {
+        print("\(type(of: self)).\(#function)")
     }
 }
 
@@ -83,4 +92,6 @@ extension ContainSearchBarVC: UISearchBarDelegate {
     func searchBarCancelButtonClicked(_ searchBar: UISearchBar) {
         print("\(type(of: self)).\(#function)")
     }
+    
+    
 }

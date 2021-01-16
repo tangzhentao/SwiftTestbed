@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02183F7425B2D8AF00905BE7 /* PresetationDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7325B2D8AF00905BE7 /* PresetationDemoVC.swift */; };
+		02183F7825B2DEE600905BE7 /* DimPresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7725B2DEE600905BE7 /* DimPresentationVC.swift */; };
+		02183F7B25B2DF7500905BE7 /* PayPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7A25B2DF7500905BE7 /* PayPasswordVC.swift */; };
 		022EFCC7259D63ED0074237E /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 022EFCC6259D63ED0074237E /* WebviewVC.swift */; };
 		0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0230EB032599F5DC008353D7 /* ImageTextVC.swift */; };
 		02528096257F8DFA0073D5E1 /* PopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02528095257F8DFA0073D5E1 /* PopoverVC.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02183F7325B2D8AF00905BE7 /* PresetationDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetationDemoVC.swift; sourceTree = "<group>"; };
+		02183F7725B2DEE600905BE7 /* DimPresentationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimPresentationVC.swift; sourceTree = "<group>"; };
+		02183F7A25B2DF7500905BE7 /* PayPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPasswordVC.swift; sourceTree = "<group>"; };
 		022EFCC6259D63ED0074237E /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
 		0230EB032599F5DC008353D7 /* ImageTextVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTextVC.swift; sourceTree = "<group>"; };
 		02528095257F8DFA0073D5E1 /* PopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverVC.swift; sourceTree = "<group>"; };
@@ -82,6 +88,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02183F7225B2D85800905BE7 /* PresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				02183F7325B2D8AF00905BE7 /* PresetationDemoVC.swift */,
+				02183F7725B2DEE600905BE7 /* DimPresentationVC.swift */,
+				02183F7A25B2DF7500905BE7 /* PayPasswordVC.swift */,
+			);
+			path = PresentationController;
+			sourceTree = "<group>";
+		};
 		022EFCC5259D63E30074237E /* webview */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +165,7 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				02183F7225B2D85800905BE7 /* PresentationController */,
 				022EFCC5259D63E30074237E /* webview */,
 				0230EB022599F5C2008353D7 /* ImageText */,
 				02528094257F8DEC0073D5E1 /* Popover */,
@@ -293,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02528096257F8DFA0073D5E1 /* PopoverVC.swift in Sources */,
+				02183F7825B2DEE600905BE7 /* DimPresentationVC.swift in Sources */,
 				02620B4E257DBD6F00117042 /* SearchBarVC.swift in Sources */,
 				0256B2802563BCC3003F87E5 /* PageDemoVC.swift in Sources */,
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
@@ -301,7 +319,9 @@
 				0256B2842563BD00003F87E5 /* PageVC.swift in Sources */,
 				0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
+				02183F7B25B2DF7500905BE7 /* PayPasswordVC.swift in Sources */,
 				0256426D257F6885002E97FA /* SubTable.swift in Sources */,
+				02183F7425B2D8AF00905BE7 /* PresetationDemoVC.swift in Sources */,
 				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
 				02674CCF255E767000F1A1AE /* LazyLoadingVC.swift in Sources */,
 				02674CD5255E779700F1A1AE /* LazyObject.swift in Sources */,

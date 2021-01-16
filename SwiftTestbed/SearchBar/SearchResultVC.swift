@@ -25,4 +25,8 @@ class SearchResultVC: BaseViewController, UISearchResultsUpdating {
         view.frame = newFrame
         view.isHidden = false
     }
+    
+    deinit {
+        print("\(type(of: self)).\(#function)")
+    }
 }
