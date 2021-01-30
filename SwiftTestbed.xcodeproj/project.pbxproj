@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		020A03B625C2ABBD00C6ECCA /* HUDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A03B525C2ABBD00C6ECCA /* HUDVC.swift */; };
+		020A03BB25C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 020A03B925C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.m */; };
+		020A03C325C2CC5800C6ECCA /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 020A03C225C2CC5800C6ECCA /* HUD.swift */; };
 		02183F7425B2D8AF00905BE7 /* PresetationDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7325B2D8AF00905BE7 /* PresetationDemoVC.swift */; };
 		02183F7825B2DEE600905BE7 /* DimPresentationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7725B2DEE600905BE7 /* DimPresentationVC.swift */; };
 		02183F7B25B2DF7500905BE7 /* PayPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02183F7A25B2DF7500905BE7 /* PayPasswordVC.swift */; };
@@ -38,9 +41,15 @@
 		02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */; };
 		02C7B9E725624D3F008416F3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C7B9E625624D3F008416F3 /* User.swift */; };
 		02EEDD8B256BA199002BE779 /* CollectionViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EEDD8A256BA199002BE779 /* CollectionViewVC.swift */; };
+		589947AD7CC4D0136F2EE313 /* Pods_SwiftTestbed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F8B312D5049E3DFFE3D61BE /* Pods_SwiftTestbed.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		020A03B525C2ABBD00C6ECCA /* HUDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUDVC.swift; sourceTree = "<group>"; };
+		020A03B825C2AC5A00C6ECCA /* SwiftTestbed-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftTestbed-Bridging-Header.h"; sourceTree = "<group>"; };
+		020A03B925C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		020A03BA25C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		020A03C225C2CC5800C6ECCA /* HUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUD.swift; sourceTree = "<group>"; };
 		02183F7325B2D8AF00905BE7 /* PresetationDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresetationDemoVC.swift; sourceTree = "<group>"; };
 		02183F7725B2DEE600905BE7 /* DimPresentationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimPresentationVC.swift; sourceTree = "<group>"; };
 		02183F7A25B2DF7500905BE7 /* PayPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayPasswordVC.swift; sourceTree = "<group>"; };
@@ -75,6 +84,9 @@
 		02C7B9E3256205C5008416F3 /* CodableDemoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDemoVC.swift; sourceTree = "<group>"; };
 		02C7B9E625624D3F008416F3 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		02EEDD8A256BA199002BE779 /* CollectionViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewVC.swift; sourceTree = "<group>"; };
+		4D9FD506129B18980C3E2035 /* Pods-SwiftTestbed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestbed.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTestbed/Pods-SwiftTestbed.debug.xcconfig"; sourceTree = "<group>"; };
+		8F8B312D5049E3DFFE3D61BE /* Pods_SwiftTestbed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTestbed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF46A9DE10F257BD64EAB4E /* Pods-SwiftTestbed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTestbed.release.xcconfig"; path = "Target Support Files/Pods-SwiftTestbed/Pods-SwiftTestbed.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +94,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				589947AD7CC4D0136F2EE313 /* Pods_SwiftTestbed.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		020A03B425C2ABA900C6ECCA /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				020A03B525C2ABBD00C6ECCA /* HUDVC.swift */,
+				020A03BA25C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.h */,
+				020A03B925C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.m */,
+				020A03B825C2AC5A00C6ECCA /* SwiftTestbed-Bridging-Header.h */,
+				020A03C225C2CC5800C6ECCA /* HUD.swift */,
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
 		02183F7225B2D85800905BE7 /* PresentationController */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,6 +172,8 @@
 			children = (
 				025E46D8255D00EE00DDAAA9 /* SwiftTestbed */,
 				025E46D7255D00EE00DDAAA9 /* Products */,
+				4E0002249ACC5255C65BA6D6 /* Pods */,
+				4EE3467E32D487AAA8C93A2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -165,6 +192,7 @@
 				025E46F2255D01C500DDAAA9 /* NavigationController.swift */,
 				025E46F5255D021A00DDAAA9 /* TableViewController.swift */,
 				025E46F9255D0AA300DDAAA9 /* TestItem.swift */,
+				020A03B425C2ABA900C6ECCA /* HUD */,
 				02183F7225B2D85800905BE7 /* PresentationController */,
 				022EFCC5259D63E30074237E /* webview */,
 				0230EB022599F5C2008353D7 /* ImageText */,
@@ -240,6 +268,23 @@
 			path = CollectionView;
 			sourceTree = "<group>";
 		};
+		4E0002249ACC5255C65BA6D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4D9FD506129B18980C3E2035 /* Pods-SwiftTestbed.debug.xcconfig */,
+				BDF46A9DE10F257BD64EAB4E /* Pods-SwiftTestbed.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4EE3467E32D487AAA8C93A2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F8B312D5049E3DFFE3D61BE /* Pods_SwiftTestbed.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -247,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 025E46EA255D00F000DDAAA9 /* Build configuration list for PBXNativeTarget "SwiftTestbed" */;
 			buildPhases = (
+				22A6C5744BE31A7CBE63D530 /* [CP] Check Pods Manifest.lock */,
 				025E46D2255D00EE00DDAAA9 /* Sources */,
 				025E46D3255D00EE00DDAAA9 /* Frameworks */,
 				025E46D4255D00EE00DDAAA9 /* Resources */,
+				D1F8A0ED0983B8A12D389C1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +318,7 @@
 				TargetAttributes = {
 					025E46D5255D00EE00DDAAA9 = {
 						CreatedOnToolsVersion = 12.1;
+						LastSwiftMigration = 1220;
 					};
 				};
 			};
@@ -304,6 +352,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A6C5744BE31A7CBE63D530 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTestbed-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1F8A0ED0983B8A12D389C1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTestbed/Pods-SwiftTestbed-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftTestbed/Pods-SwiftTestbed-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftTestbed/Pods-SwiftTestbed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		025E46D2255D00EE00DDAAA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -314,12 +404,14 @@
 				02620B4E257DBD6F00117042 /* SearchBarVC.swift in Sources */,
 				0256B2802563BCC3003F87E5 /* PageDemoVC.swift in Sources */,
 				02674CCA255E18B000F1A1AE /* Smiley.swift in Sources */,
+				020A03C325C2CC5800C6ECCA /* HUD.swift in Sources */,
 				02C7B9E4256205C5008416F3 /* CodableDemoVC.swift in Sources */,
 				0252809A257F95F50073D5E1 /* IteamsVC.swift in Sources */,
 				0256B2842563BD00003F87E5 /* PageVC.swift in Sources */,
 				0230EB042599F5DC008353D7 /* ImageTextVC.swift in Sources */,
 				02674CC3255E117000F1A1AE /* MetatypeVC.swift in Sources */,
 				02183F7B25B2DF7500905BE7 /* PayPasswordVC.swift in Sources */,
+				020A03BB25C2AC5B00C6ECCA /* SVIndefiniteAnimatedView.m in Sources */,
 				0256426D257F6885002E97FA /* SubTable.swift in Sources */,
 				02183F7425B2D8AF00905BE7 /* PresetationDemoVC.swift in Sources */,
 				02C7B9E725624D3F008416F3 /* User.swift in Sources */,
@@ -333,6 +425,7 @@
 				02987F6B257F71CD00537D47 /* ContainSearchBarVC.swift in Sources */,
 				02987F6A257F71CD00537D47 /* SearchResultVC.swift in Sources */,
 				025E46DA255D00EE00DDAAA9 /* AppDelegate.swift in Sources */,
+				020A03B625C2ABBD00C6ECCA /* HUDVC.swift in Sources */,
 				025E46F6255D021A00DDAAA9 /* TableViewController.swift in Sources */,
 				022EFCC7259D63ED0074237E /* WebviewVC.swift in Sources */,
 				02C7B9E0256204DB008416F3 /* Team.swift in Sources */,
@@ -473,11 +566,13 @@
 		};
 		025E46EB255D00F000DDAAA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D9FD506129B18980C3E2035 /* Pods-SwiftTestbed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PM4SRCXW84;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -485,6 +580,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firefly.SwiftTestbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTestbed/HUD/SwiftTestbed-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -492,11 +589,13 @@
 		};
 		025E46EC255D00F000DDAAA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDF46A9DE10F257BD64EAB4E /* Pods-SwiftTestbed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PM4SRCXW84;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwiftTestbed/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -504,6 +603,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.firefly.SwiftTestbed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftTestbed/HUD/SwiftTestbed-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
