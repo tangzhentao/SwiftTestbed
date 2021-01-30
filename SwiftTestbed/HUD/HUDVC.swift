@@ -27,10 +27,11 @@ class HUDVC: BaseViewController {
     // MARK: - UI
     func creatUI() {
         
+        let backItem = UIBarButtonItem(title: "back", style: .plain, target: self, action: #selector(back))
         let showItem = UIBarButtonItem(title: "shw", style: .plain, target: self, action: #selector(showIndicator))
         let dismissItem = UIBarButtonItem(title: "dis", style: .plain, target: self, action: #selector(dismissIndicator))
         
-        navigationItem.leftBarButtonItems = [showItem, dismissItem]
+        navigationItem.leftBarButtonItems = [backItem, showItem, dismissItem]
         
         let doneItem = UIBarButtonItem(title: "done", style: .plain, target: self, action: #selector(showDone))
         let progressItem = UIBarButtonItem(title: "poges", style: .plain, target: self, action: #selector(showProgress))
@@ -66,6 +67,9 @@ class HUDVC: BaseViewController {
         print("\(type(of: self)).\(#function)")
     }
     
+    @objc func back() {
+        navigationController?.popViewController(animated: true)
+    }
     @objc func showIndicator() {
         HUD.showIndicator(message: "正在登录", in: view)
     }
