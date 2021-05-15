@@ -44,6 +44,8 @@ class TableViewController: UITableViewController {
             TestItem(title: "WebviewVC", type: WebviewVC.self),
             TestItem(title: "过渡动画", type: PresetationDemoVC.self),
             TestItem(title: "无限转动动画", type: HUDVC.self),
+            TestItem(title: "控制器返回事件", type: BackActionVC.self),
+            
         ]
     }
 }

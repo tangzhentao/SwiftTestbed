@@ -17,3 +17,17 @@ class NavigationController: UINavigationController {
         
     }
 }
+
+extension NavigationController: UINavigationBarDelegate {
+    func navigationBar(_ navigationBar: UINavigationBar, shouldPop item: UINavigationItem) -> Bool {
+        print("\(type(of: self)).\(#function):", item)
+        
+        
+        
+        return true //!(self.topViewController is LazyLoadingVC)
+    }
+    func navigationBar(_ navigationBar: UINavigationBar, didPop item: UINavigationItem) {
+        print("\(type(of: self)).\(#function):", item)
+    }
+}
+

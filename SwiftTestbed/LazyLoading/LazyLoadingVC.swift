@@ -17,6 +17,11 @@ class LazyLoadingVC: BaseViewController {
         var lazyObject = LazyObject()
         var object = Object()
         
+        title = "懒加载"
+        if #available(iOS 11, *) {
+            navigationItem.backButtonTitle = ""
+        }
+        
         print("object内存结构")
         print(MemoryLayout.size(ofValue: object))
         print(MemoryLayout.alignment(ofValue: object))
